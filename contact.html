@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bilder er hentet fra adobe stock https://stock.adobe.com/?gclid=CjwKCAiAjrarBhAWEiwA2qWdCDYY1ruSNeq96bPaeOMHn3f0cQBnEkcVf6KC72nXc_mu9ED5K2l5oRoCJzoQAvD_BwE&ef_id=CjwKCAiAjrarBhAWEiwA2qWdCDYY1ruSNeq96bPaeOMHn3f0cQBnEkcVf6KC72nXc_mu9ED5K2l5oRoCJzoQAvD_BwE:G:s&s_kwcid=AL!3085!3!591841951868!e!!g!!adobe%20stock!16807032616!134565679599&as_channel=sem&as_campclass=brand&as_campaign=NO|CPRO|Stock|PURCH|As_Brand_Exact|GG||EN|&as_source=google&mv=search&mv2=paidsearch&as_camptype=acquisition&sdid=XFWLHMLF&as_audience=core&gad_source=1-->
+    <title>Sandefjord turistforening</title>
+    <link rel="icon" href="favicon-16x16.png" />
+  </head>
+  <body>
+    <header>
+      <nav><!--Hamburger meny global-->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+        <ul class="nav-list">
+          <li><a href="./index.html">Forsiden</a></li>
+          <li><a href="./activities.html">Aktiviteter</a></li>
+          <li><a href="./contact.html">Kontakt oss</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Kart-->
+      <section class="map-container container">
+        <iframe
+          src="https://maps.google.com/maps?q=sandefjord%20turistforening&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+          width="500"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          aria-label="kart fra Google Maps som viser rideskolens lokasjon"
+        ></iframe>
+      </section>
+      <!--Kontaktinformasjon-->
+      <section class="contact-wrapper container">
+        <div class="contact-info">
+          <h2>Kontaktinformasjon</h2>
+          <h3>E-postadresse</h3>
+          <a href="mailto:sandefjord@turistforening.no"
+            >sandefjord@turistforening.no</a
+          >
+          <h3>Telefon</h3>
+          <a href="tel:#">+47 33 44 55 66</a>
+          <h3>Adresse</h3>
+          <a
+            href="https://www.google.com/maps/place/DNT+Sandefjord/@59.130018,10.2246201,17z/data=!3m1!4b1!4m6!3m5!1s0x4646c0972417cae1:0x988f89a7e524ccce!8m2!3d59.130018!4d10.227195!16s%2Fg%2F1tzvv49y?entry=ttu"
+          >
+            Sandefjordgata 12, <br />3334 SANDEFJORD</a
+          >
+        </div>
+        <!--Form skjema-->
+        <form>
+          <label for="name">Ditt navn</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Ola Normann"
+          />
+          <label for="email">E-postadresse</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="ola@normann.com"
+          />
+          <label for="subject">Din melding</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Din melding.."
+          ></textarea>
+          <label class="newsletter" for="newsletter"
+            ><input type="checkbox" name="checkbox" id="newsletter" />Jeg ønsker
+            å motta nyhetsbrev fra Sandefjord turistforening.
+          </label>
+          <div class="button-form">
+            <button type="submit" class="button">Send melding</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img
+        class="footer-logo"
+        src="./assets/icons&logo/turist-logo2.svg"
+        alt="Logo, en form med bokstaven T inni seg"
+      />
+      <div class="footer-text">
+        <ul class="footer-links">
+          <li><a href="./index.html">Forsiden</a></li>
+          <li><a href="./activities.html">Aktiviteter</a></li>
+          <li><a href="./contact.html">Kontakt oss</a></li>
+        </ul>
+        <div class="footer-content">
+          <p>Sandefjord turistforening AS</p>
+          <p>Org. 234 456 678 MVA</p>
+          <p>Sandefjordgata 12, 3334 Sandefjord</p>
+        </div>
+        <div class="social-media">
+          <a href="#" class="icon">
+            <img src="./assets/icons&logo/facebook.svg" alt="Facebook ikon" />
+          </a>
+          <a href="#" class="icon">
+            <img src="./assets/icons&logo/instagram.svg" alt="Instagram ikon" />
+          </a>
+          <a href="#" class="icon">
+            <img src="./assets/icons&logo/x-twitter.svg" alt="Twitter ikon" />
+          </a>
+          <a href="#" class="icon">
+            <img src="./assets/icons&logo/youtube.svg" alt="Youtube ikon" />
+          </a>
+        </div>
+      </div>
+      <p class="copyright">&copy;Copyright 2023</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+  <g id="bowling-icon" transform="translate(-198 -641)">
+    <g id="activities-svg">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="34" cy="34" r="34" transform="translate(198 641)" fill="#fff"/>
+      <path id="bowling-ball-solid" d="M17,34A17,17,0,1,0,0,17,17,17,0,0,0,17,34ZM15.938,5.313a2.125,2.125,0,1,1-2.125,2.125A2.125,2.125,0,0,1,15.938,5.313Zm-2.125,8.5a2.125,2.125,0,1,1,2.125,2.125A2.125,2.125,0,0,1,13.813,13.813Zm-4.25-4.25a2.125,2.125,0,1,1-2.125,2.125A2.125,2.125,0,0,1,9.563,9.563Z" transform="translate(215 658)" fill="#66bb78"/>
+    </g>
+  </g>
+</svg>
